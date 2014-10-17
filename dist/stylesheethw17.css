@@ -19,6 +19,15 @@
     margin-left: 0em;
     padding-left: 1em;
     background-color: #B8B8B8;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+}
+.left-column:hover {
+    background: #FF66FF;
 }
 ul {
     font-family: 'Poiret One', cursive;
@@ -55,6 +64,16 @@ h4 {
     background-color: #D0D0D0;
     margin-right: 0em;
     min-width: 100%;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+}
+.right-column:hover {
+    background: #66FF99;
+
 }
 img {
     max-width: 100%;
@@ -71,23 +90,22 @@ a {
     text-align: left;
     width: fill;
     line-height: 20px;
-
 }
 h3 {
-	font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', cursive;
     color: #3399CC;
     text-align: left;
     width: fill;
 }
-h6{
-	font-family: 'Poiret One', cursive;
+h6 {
+    font-family: 'Poiret One', cursive;
     color: #660066;
     text-align: left;
     font-size: 14px;
     width: fill;
 }
-p{
-	font-family: 'Poiret One', cursive;
+p {
+    font-family: 'Poiret One', cursive;
     color: #CC3399;
     text-align: right;
     font-size: 12px;
