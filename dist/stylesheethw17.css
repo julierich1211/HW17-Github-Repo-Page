@@ -1,11 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 *, *:before, *:after {
     box-sizing: border-box;
 }
 .container {
     max-width: 1024px;
-    margin: 1em;
+    margin top: 1em;
     position: relative;
+    padding-top: -3em;
 }
 .left-column {
     width: 15em;
@@ -14,38 +15,83 @@
     top: 0;
     min-height: 100%;
     padding-right: 1em;
-    border-right: 4px solid #990099;
+    border-right: 5px solid #990099;
     margin-left: 0em;
     padding-left: 1em;
-    background-color: #F0F0F0
+    background-color: #B8B8B8;
 }
 ul {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Poiret One', cursive;
     font-size: 12px;
-    color: #3399CC;
+    color: #660066;
     text-align: center;
     width: fill;
     padding-left: 1em;
     line-height: 30px;
+    font-style: bold;
+    font-weight: 700;
 }
 h2 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Poiret One', cursive;
     color: #3399CC;
     text-align: center;
     width: fill;
+    line-height: 32px;
+    padding-top: .5em;
+}
+h4 {
+    font-family: 'Poiret One', cursive;
+    color: #9933CC;
+    text-align: center;
+    width: fill;
+    font-style: bold;
+    line-height: 30px;
+    padding-top: 1em;
 }
 .right-column {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Poiret One', cursive;
     margin-left: 15em;
     min-height: 200px;
+    background-color: #E0E0E0;
+    margin-right: 0em;
+    min-width: 100%;
 }
 img {
     max-width: 100%;
     text-align: center;
-    z-index: 1
+    margin-top: auto;
 }
 .repo-item {
     display: block;
     padding: 1em 2em;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #9900CC;
+}
+a {
+    font-family: 'Poiret One', cursive;
+    text-align: left;
+    width: fill;
+    line-height: 20px;
+
+}
+h3 {
+	font-family: 'Poiret One', cursive;
+    color: #3399CC;
+    text-align: left;
+    width: fill;
+}
+h6{
+	font-family: 'Poiret One', cursive;
+    color: #660066;
+    text-align: left;
+    font-size: 14px;
+    width: fill;
+}
+p{
+	font-family: 'Poiret One', cursive;
+    color: #CC3399;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    width: fill;
+    padding-right: 10em;
 }
