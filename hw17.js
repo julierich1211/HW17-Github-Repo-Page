@@ -13,6 +13,7 @@ pullDetail.prototype.getInfoRepo = function() {
     return $.get('https://api.github.com/users/' + this.username + '/repos').then(function(data) {
         return data;
     });
+    console.log(data);
 };
 pullDetail.prototype.loadTemplate = function(templateName) {
     return $.get('templates/' + templateName + '.html').then(function(hstring) {
@@ -38,7 +39,7 @@ pullDetail.prototype.detail = function() {
         this.loadTemplate('profile'),
         this.loadTemplate('repo')
     ).then(function(profile, repos, profileHTML, repoHTML) {
-        // own.placeDetail(profileHTML, profile);
+        own.placeDetail(profileHTML, profile);
         own.placeRepoData(repoHTML, repos);
     });
 }
